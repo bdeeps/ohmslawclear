@@ -1,0 +1,161 @@
+{
+  "slug": "ohmslawclear",
+  "kind": "principle",
+  "box": 1,
+  "date": "2026-09-27",
+  "title": "Ohm's law",
+  "question": "What is Ohm's law?",
+  "principle": {
+    "type": "law",
+    "name": "Ohm's law",
+    "formula": "V = I × R",
+    "formulaNote": "voltage = current × resistance, so current = voltage ÷ resistance",
+    "idea": "Push harder and more current flows; make the path narrower and less flows. For a wire or resistor at a steady temperature, the current is exactly proportional to the voltage, and the number that links them is the resistance.",
+    "discovered": "1827 · Georg Simon Ohm, Germany",
+    "art": "resistor",
+    "appliesTo": [
+      "airfryerclear",
+      "fanclear",
+      "upsclear",
+      "carclear",
+      "tvclear",
+      "mixerclear",
+      "washerclear"
+    ],
+    "examples": [
+      {
+        "title": "The air fryer's heating element",
+        "text": "A 1,500 W element on 230 V must have R = 230² ÷ 1,500, about 35 Ω. The same current flows through the cord, but the element has about 500 times its resistance, so it takes almost all the heat.",
+        "box": "airfryerclear"
+      },
+      {
+        "title": "A washing machine's water heater",
+        "text": "A front loader's 2,000 W heater is about 26 Ω. At a sagging 200 V it gives only about three quarters of its heat, because P = V² ÷ R.",
+        "box": "washerclear"
+      },
+      {
+        "title": "Old fan regulators ran hot",
+        "text": "A resistive regulator slows a fan by adding a resistor in series. On low speed it can burn nearly as much power as the fan uses; capacitor and electronic regulators waste about a watt.",
+        "box": "fanclear"
+      },
+      {
+        "title": "Thick inverter battery cables",
+        "text": "720 W from a 12 V battery needs about 60 A. Cable heat is I²R, so the cables must be as thick as a finger to stay cool and not waste volts.",
+        "box": "upsclear"
+      },
+      {
+        "title": "A car's starter motor",
+        "text": "Cranking an engine draws around 150 A from a 12 V battery. On a thin cable the voltage drop I × R alone could stop the engine turning over.",
+        "box": "carclear"
+      },
+      {
+        "title": "A jammed mixer heats up fast",
+        "text": "A spinning motor makes a back voltage that holds its current down. Jam or overload the blades and only the winding's resistance is left to limit I = V ÷ R, so the current climbs, I²R heats the coils and the thermal overload protector trips.",
+        "box": "mixerclear"
+      },
+      {
+        "title": "The TV's standby light",
+        "text": "A red LED on a 5 V rail needs a resistor of about (5 − 2) ÷ 0.02 = 150 Ω to set 20 mA. The backlight's driver chip measures its LED current as the voltage across a tiny resistor.",
+        "box": "tvclear"
+      },
+      {
+        "title": "Why MCBs trip",
+        "text": "A geyser, a heater and an iron on one circuit draw about 22 A. The heat in the wall wire climbs with the square of the current, so a 16 A MCB switches off to save the wire."
+      },
+      {
+        "title": "Wet hands and RCCBs",
+        "text": "Dry skin can resist about 100,000 Ω, so 230 V drives a tingle of 2 mA. Wet skin can fall to about 1,000 Ω and the current to a deadly 150 mA, which is why RCCBs cut power at 30 mA."
+      }
+    ]
+  },
+  "hook": "Twice the push, twice the flow: one line of algebra runs every heater, charger and fuse in your home. Drive electrons round a 3D circuit, see why they crawl while the light comes on instantly, and find where Ohm's law finally breaks.",
+  "thumbText": "OHM'S LAW",
+  "field": "physics",
+  "minutes": 12,
+  "tags": [
+    "ohms law",
+    "electricity",
+    "current",
+    "voltage",
+    "resistance",
+    "circuits",
+    "superconductivity",
+    "physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Voltage pushes, resistance holds back",
+      "text": "Current is how much charge flows each second. It equals the push, voltage, divided by the resistance: I = V ÷ R. Double the voltage and the current doubles; double the resistance and it halves. On a current–voltage graph that is a straight line."
+    },
+    {
+      "title": "Resistance turns electricity into heat",
+      "text": "The heat made each second is P = I² × R, or V² ÷ R. A 1,500 W air fryer element is about 35 Ω. The cord carries the same current but has 500 times less resistance, so the element glows and the cord stays cool."
+    },
+    {
+      "title": "Low voltage needs fat cables",
+      "text": "For the same power, a 12 V battery must push twenty times the current of a 230 V socket. Cable heat grows with current squared, so inverter and car starter cables are as thick as a finger."
+    },
+    {
+      "title": "MCBs guard wires, RCCBs guard you",
+      "text": "Too many heaters on one circuit push the current past 16 A and an MCB trips to save the wire. Your body is a resistor too: wet skin lets 230 V drive a deadly current, so an RCCB cuts the power when 30 mA leaks away."
+    },
+    {
+      "title": "Where the straight line bends",
+      "text": "A bulb filament's resistance rises about 14 times as it heats, so it surges at switch-on. LEDs barely conduct until about 2 V, then shoot up, so they need a resistor. And below 4.2 K mercury's resistance drops to exactly zero."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Voltage",
+      "def": "The electrical push that drives charge round a circuit, measured in volts (V)."
+    },
+    {
+      "term": "Current",
+      "def": "How much electric charge flows past a point each second, measured in amps (A)."
+    },
+    {
+      "term": "Resistance",
+      "def": "How strongly something opposes current, measured in ohms (Ω). One volt drives one amp through one ohm."
+    },
+    {
+      "term": "Power",
+      "def": "Energy per second, in watts: P = V × I = I² × R."
+    },
+    {
+      "term": "Drift speed",
+      "def": "The slow average speed of electrons along a wire, well under a millimetre per second."
+    },
+    {
+      "term": "Resistivity",
+      "def": "A material's own resistance for a 1 m cube; wire resistance is resistivity × length ÷ area."
+    },
+    {
+      "term": "Ohmic",
+      "def": "Obeying Ohm's law: current in proportion to voltage, a straight I–V line."
+    },
+    {
+      "term": "Superconductor",
+      "def": "A material whose resistance falls to exactly zero below a critical temperature."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "ohmslawclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

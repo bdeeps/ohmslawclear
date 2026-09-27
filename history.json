@@ -1,0 +1,597 @@
+{
+  "title": "The history of Ohm's law",
+  "tagline": "From a scientist timing his own electric shocks to an ohm fixed by the constants of nature.",
+  "intro": "People could make sparks long before they could make a steady current, and they could feel current long before they could measure it. Once Volta's pile gave a steady push and Ørsted's compass gave a way to measure the flow, a schoolteacher in Cologne found the simple rule linking them. It was ignored, then celebrated, then named into a unit. The twentieth century explained why metals obey it, found materials that break it completely, and finally turned the ohm into a constant of nature.",
+  "eras": [
+    {
+      "id": "before",
+      "name": "Shocks, piles and needles",
+      "from": 1780,
+      "to": 1824,
+      "color": "#c49bff",
+      "summary": "Scientists learn to make a steady current and to measure it, and notice that long, thin or hot wires conduct worse."
+    },
+    {
+      "id": "ohm",
+      "name": "Ohm's law",
+      "from": 1825,
+      "to": 1845,
+      "color": "#ffb547",
+      "summary": "A Cologne schoolteacher finds the law, is ignored, then wins the Royal Society's top prize. Joule, Wheatstone and Kirchhoff build on it."
+    },
+    {
+      "id": "units",
+      "name": "Naming the ohm",
+      "from": 1860,
+      "to": 1893,
+      "color": "#ff7a59",
+      "summary": "Telegraph engineers need standard units. The ohm is named, defined and agreed between nations."
+    },
+    {
+      "id": "inside",
+      "name": "Inside the metal",
+      "from": 1900,
+      "to": 1990,
+      "color": "#5ce1a9",
+      "summary": "Physicists explain Ohm's law with drifting electrons, then find superconductors, where resistance vanishes."
+    },
+    {
+      "id": "quantum",
+      "name": "A quantum ohm",
+      "from": 1980,
+      "to": 2026,
+      "color": "#8ef0ff",
+      "summary": "A quantum effect gives an exact resistance, and the ohm becomes a constant of nature."
+    }
+  ],
+  "events": [
+    {
+      "year": 1781,
+      "date": "January 1781",
+      "era": "before",
+      "art": "person",
+      "title": "A scientist uses himself as a meter",
+      "who": "Henry Cavendish",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "With no instrument to measure current, Cavendish sent charge from Leyden jars through tubes of salt water and judged the strength of the shock in his own body. He found the current rose in step with the 'degree of electrification', which is Ohm's law in all but name. He never published it.",
+      "why": "The law was found once and then lost for almost a century, until James Clerk Maxwell edited Cavendish's papers in 1879.",
+      "sources": [
+        0,
+        2
+      ]
+    },
+    {
+      "year": 1800,
+      "date": "20 March 1800",
+      "era": "before",
+      "art": "battery",
+      "key": true,
+      "title": "A steady current at last",
+      "who": "Alessandro Volta",
+      "where": "Pavia (then Austrian Lombardy)",
+      "country": "Italy",
+      "text": "Volta stacked discs of zinc and copper with brine-soaked cloth between them and described the 'pile' in a letter to the Royal Society in London. Unlike a Leyden jar, which empties in a spark, it pushed a steady current for as long as the chemicals lasted.",
+      "why": "Without a steady current, no one could measure how current depends on anything.",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 1820,
+      "date": "1820",
+      "era": "before",
+      "art": "magnet",
+      "key": true,
+      "title": "A compass needle feels the current",
+      "who": "Hans Christian Ørsted",
+      "where": "Copenhagen",
+      "country": "Denmark",
+      "text": "Ørsted showed that a wire carrying current swings a nearby compass needle, and published it in July 1820. Within months others turned the effect into the galvanometer: the stronger the current, the further the needle turns.",
+      "why": "It gave scientists the first way to measure current, which Ohm would use.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1821,
+      "date": "1821",
+      "era": "before",
+      "art": "resistor",
+      "title": "Longer wires conduct less",
+      "who": "Humphry Davy",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "Davy found that a wire conducts less the longer it is and more the thicker it is, and that metals conduct worse as they get hotter. He ranked silver first, then copper.",
+      "why": "These are the rules behind R = ρL ÷ A, and behind the hot bulb filament of chapter 5.",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "year": 1821,
+      "date": "1821–1822",
+      "era": "before",
+      "art": "thermometer",
+      "title": "Heat makes a current",
+      "who": "Thomas Johann Seebeck",
+      "where": "Berlin, Prussia",
+      "country": "Germany",
+      "text": "Seebeck found that a loop of two different metals makes a current when one junction is hotter than the other. The push depends only on the temperature difference, so it is very steady.",
+      "why": "Ohm's first batteries drifted too much. A thermocouple with one end in ice and one in boiling water gave him a push he could trust.",
+      "sources": [
+        6,
+        0
+      ]
+    },
+    {
+      "year": 1825,
+      "date": "1825",
+      "era": "ohm",
+      "art": "word",
+      "title": "A schoolteacher starts measuring",
+      "who": "Georg Simon Ohm",
+      "where": "Cologne, Prussia",
+      "country": "Germany",
+      "text": "Ohm taught mathematics and physics at the Jesuit Gymnasium in Cologne. In his spare time he measured how the magnetic effect of a current weakens as the wire gets longer, and published his first paper on it in 1825.",
+      "why": "He was an outsider with a school lab, not a university professor.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "year": 1826,
+      "date": "1826",
+      "era": "ohm",
+      "art": "thermometer",
+      "key": true,
+      "title": "The decisive experiment",
+      "who": "Georg Simon Ohm",
+      "where": "Cologne, Prussia",
+      "country": "Germany",
+      "text": "Using a bismuth–copper thermocouple as a steady source and a torsion galvanometer as his meter, Ohm tested wires of different lengths. His readings fitted a simple rule, x = a ÷ (b + l): the current falls as the wire's length l is added to the circuit's own resistance b.",
+      "why": "It is Ohm's law in the form 'current = push ÷ total resistance'.",
+      "box": "idea",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 1827,
+      "date": "1827",
+      "era": "ohm",
+      "art": "word",
+      "key": true,
+      "title": "Die galvanische Kette",
+      "who": "Georg Simon Ohm",
+      "where": "Berlin, Prussia",
+      "country": "Germany",
+      "text": "Ohm published his theory as a book, The Galvanic Circuit Investigated Mathematically, modelled on Fourier's mathematics of heat flow. It was coldly received. One critic called it a web of naked fancies, and Ohm left Cologne for years of poorly paid work.",
+      "why": "A correct law can be ignored when it arrives as maths from an unknown teacher.",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 1840,
+      "date": "1840–1841",
+      "era": "ohm",
+      "art": "heatwaves",
+      "title": "Heat grows with current squared",
+      "who": "James Prescott Joule",
+      "where": "Salford, England",
+      "country": "United Kingdom",
+      "text": "Joule, a brewer's son, measured the heat from wires carrying current. He found it was proportional to the resistance times the square of the current: I² × R. He sent the work to the Royal Society in 1840 and published it in full in 1841.",
+      "why": "Joule's law is Ohm's law's partner: it explains every heater, fuse and warm cable.",
+      "box": "heat",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "year": 1841,
+      "date": "1841",
+      "era": "ohm",
+      "art": "trophy",
+      "key": true,
+      "title": "Recognition from London",
+      "who": "Royal Society",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "The Royal Society awarded Ohm its Copley Medal, then its highest prize, and made him a foreign member the next year. By then physicists in Britain and elsewhere had confirmed his law.",
+      "why": "Fourteen years after the book, Ohm's law was mainstream science.",
+      "sources": [
+        1,
+        17
+      ]
+    },
+    {
+      "year": 1843,
+      "date": "1843",
+      "era": "ohm",
+      "art": "scales",
+      "title": "The Wheatstone bridge",
+      "who": "Charles Wheatstone, after Samuel Hunter Christie",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "Christie devised it in 1833; Wheatstone improved it and made it famous in 1843. Four resistances form a diamond with a galvanometer across the middle. When the needle reads zero, the unknown resistance equals a simple ratio of the others.",
+      "why": "It made resistance measurable with great precision, which telegraph engineers badly needed.",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "year": 1845,
+      "date": "1845",
+      "era": "ohm",
+      "art": "word",
+      "title": "Rules for any circuit",
+      "who": "Gustav Kirchhoff",
+      "where": "Königsberg, Prussia",
+      "country": "Germany",
+      "text": "While still a student, Kirchhoff generalised Ohm's work into two rules: the currents into any junction add up to the currents out, and the voltages round any loop add up to zero.",
+      "why": "With Ohm's law and Kirchhoff's rules you can work out any network of resistors.",
+      "sources": [
+        9
+      ]
+    },
+    {
+      "year": 1861,
+      "date": "1861–1864",
+      "era": "units",
+      "art": "word",
+      "key": true,
+      "title": "A unit named Ohma",
+      "who": "Latimer Clark and Charles Bright; British Association",
+      "where": "Manchester and London, England",
+      "country": "United Kingdom",
+      "text": "Clark and Bright proposed naming electrical units after scientists, including the 'ohma'. The British Association set up a committee with Maxwell and William Thomson, and in 1864 it defined the 'B.A. unit' of resistance, later found to be about 1.3% too small.",
+      "why": "Electricity got a shared language, and Ohm's name became a unit.",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 1881,
+      "date": "1881",
+      "era": "units",
+      "art": "resistor",
+      "title": "The ohm goes international",
+      "who": "International Electrical Congress",
+      "where": "Paris",
+      "country": "France",
+      "text": "Scientists from many nations agreed on the practical units of electricity, including the ohm. For decades after, the ohm was realised as a column of mercury about 106 cm long at 0 °C.",
+      "why": "A resistor made in one country could now be trusted in another.",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 1900,
+      "date": "1900",
+      "era": "inside",
+      "art": "molecule",
+      "key": true,
+      "title": "Why metals obey the law",
+      "who": "Paul Drude",
+      "where": "Leipzig",
+      "country": "Germany",
+      "text": "Drude pictured a metal as a gas of free electrons that bump into the atoms. An electric field gives them a slow drift on top of their random motion, and the drift speed grows in proportion to the field. That gives J = σE, Ohm's law for a piece of material.",
+      "why": "Ohm's law stopped being just a rule and got a reason.",
+      "box": "idea",
+      "sources": [
+        11,
+        0
+      ]
+    },
+    {
+      "year": 1911,
+      "date": "8 April 1911",
+      "era": "inside",
+      "art": "snowflake",
+      "key": true,
+      "title": "Resistance vanishes",
+      "who": "Heike Kamerlingh Onnes, with Gilles Holst and others",
+      "where": "Leiden",
+      "country": "Netherlands",
+      "text": "Having liquefied helium, Onnes's lab cooled solid mercury and measured its resistance. At about 4.2 K it abruptly dropped to zero. He won the 1913 Nobel Prize for his low-temperature work.",
+      "why": "Superconductors break Ohm's law completely: current flows with no voltage at all.",
+      "box": "limits",
+      "sources": [
+        12,
+        13
+      ]
+    },
+    {
+      "year": 1986,
+      "date": "1986–1987",
+      "era": "inside",
+      "art": "ice",
+      "title": "Superconductors get warmer",
+      "who": "Georg Bednorz, Alex Müller; Paul Chu's team",
+      "where": "Zurich, Switzerland; Houston, USA",
+      "country": "Switzerland",
+      "text": "At IBM Zurich, Bednorz and Müller found a copper-oxide ceramic that superconducts at about 35 K. Within a year Chu's group made YBCO, which works at about 93 K, above the boiling point of cheap liquid nitrogen.",
+      "why": "Zero-resistance wires moved from rare physics labs towards MRI machines and power cables.",
+      "sources": [
+        14,
+        19
+      ]
+    },
+    {
+      "year": 1980,
+      "date": "February 1980",
+      "era": "quantum",
+      "art": "chip",
+      "key": true,
+      "title": "A resistance set by nature",
+      "who": "Klaus von Klitzing",
+      "where": "Grenoble",
+      "country": "France",
+      "text": "In very thin layers of electrons, cold and in a strong magnetic field, von Klitzing found the Hall resistance locks onto exact steps of h/e², about 25,812.807 Ω, whatever the sample. He won the 1985 Nobel Prize, and from 1990 labs used it to calibrate resistance.",
+      "why": "The best standard of resistance became a law of nature, not a column of mercury.",
+      "sources": [
+        15,
+        16
+      ]
+    },
+    {
+      "year": 2019,
+      "date": "20 May 2019",
+      "era": "quantum",
+      "art": "scales",
+      "key": true,
+      "title": "The ohm is fixed by constants",
+      "who": "General Conference on Weights and Measures",
+      "where": "Sèvres (Paris)",
+      "country": "France",
+      "text": "The SI was redefined so that Planck's constant h and the electron's charge e have exact values. That makes the von Klitzing constant h/e² exact too, so the ohm is now defined by constants of nature.",
+      "why": "Two centuries after a schoolteacher's wires, the ohm is built into the definition of all units.",
+      "sources": [
+        18,
+        15
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Current found proportional to 'electrification' (unpublished)",
+      "value": "1781",
+      "who": "Henry Cavendish, England"
+    },
+    {
+      "label": "A steady electric current",
+      "value": "1800",
+      "who": "Alessandro Volta, Italy"
+    },
+    {
+      "label": "Ohm's law published",
+      "value": "1827",
+      "who": "Georg Simon Ohm, Germany"
+    },
+    {
+      "label": "International ohm agreed",
+      "value": "1881",
+      "who": "International Electrical Congress, Paris"
+    },
+    {
+      "label": "Superconductivity observed",
+      "value": "1911",
+      "who": "Heike Kamerlingh Onnes, Netherlands"
+    },
+    {
+      "label": "Quantum standard of resistance",
+      "value": "1980",
+      "who": "Klaus von Klitzing, Germany (at Grenoble, France)"
+    }
+  ],
+  "people": [
+    {
+      "name": "Georg Simon Ohm",
+      "life": "1789 – 1854",
+      "role": "Physicist and teacher",
+      "from": "Germany",
+      "note": "Found the law as a schoolteacher in Cologne; professor in Munich from 1852."
+    },
+    {
+      "name": "Henry Cavendish",
+      "life": "1731 – 1810",
+      "role": "Natural philosopher",
+      "from": "England",
+      "note": "Found the law decades earlier using his own body as the meter, and kept it to himself."
+    },
+    {
+      "name": "Alessandro Volta",
+      "life": "1745 – 1827",
+      "role": "Physicist",
+      "from": "Italy",
+      "note": "Built the first battery; the volt is named after him."
+    },
+    {
+      "name": "Hans Christian Ørsted",
+      "life": "1777 – 1851",
+      "role": "Physicist and chemist",
+      "from": "Denmark",
+      "note": "Showed that current moves a compass needle, the basis of the first current meters."
+    },
+    {
+      "name": "James Prescott Joule",
+      "life": "1818 – 1889",
+      "role": "Physicist and brewer",
+      "from": "England",
+      "note": "Showed that a wire's heat equals I² × R."
+    },
+    {
+      "name": "Heike Kamerlingh Onnes",
+      "life": "1853 – 1926",
+      "role": "Physicist",
+      "from": "Netherlands",
+      "note": "Liquefied helium and discovered superconductivity."
+    },
+    {
+      "name": "Klaus von Klitzing",
+      "life": "born 1943",
+      "role": "Physicist",
+      "from": "Germany",
+      "note": "Discovered the quantum Hall effect, now the world's resistance standard."
+    }
+  ],
+  "series": [
+    {
+      "id": "tc",
+      "title": "Warmest known superconductor (at normal pressure)",
+      "unit": "kelvin",
+      "log": false,
+      "after": "inside",
+      "caption": "The temperature below which the best known material loses all resistance. Liquid nitrogen boils at 77 K, so the jump in 1987 made superconductors far cheaper to cool.",
+      "points": [
+        {
+          "year": 1911,
+          "value": 4.2,
+          "label": "Mercury, 4.2 K (Kamerlingh Onnes)"
+        },
+        {
+          "year": 1954,
+          "value": 18,
+          "label": "Niobium–tin, about 18 K"
+        },
+        {
+          "year": 1973,
+          "value": 23,
+          "label": "Niobium–germanium, about 23 K"
+        },
+        {
+          "year": 1986,
+          "value": 35,
+          "label": "Lanthanum barium copper oxide, about 35 K (Bednorz and Müller)"
+        },
+        {
+          "year": 1987,
+          "value": 93,
+          "label": "YBCO, about 93 K (Chu's group)"
+        },
+        {
+          "year": 1993,
+          "value": 133,
+          "label": "Mercury barium calcium copper oxide, about 133 K"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "Electrons in a household wire drift at well under a millimetre per second, but the push that moves them travels at about two thirds of the speed of light.",
+    "Before any meter existed, Henry Cavendish measured current by how much the shock hurt.",
+    "A 60 W bulb's filament has about 14 times more resistance hot than cold, which is why bulbs usually blow at switch-on.",
+    "Since 2019 the ohm has been defined through Planck's constant and the charge of the electron.",
+    "Dry skin can resist about 100,000 Ω; wet skin can fall to about 1,000 Ω, which is why water and electricity don't mix."
+  ],
+  "sources": [
+    {
+      "title": "Ohm's law",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ohm%27s_law"
+    },
+    {
+      "title": "Georg Ohm",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Georg_Ohm"
+    },
+    {
+      "title": "Editing Cavendish: Maxwell and The Electrical Researches of Henry Cavendish",
+      "publisher": "arXiv (I. B. Hopley / Clerk Maxwell Foundation)",
+      "url": "https://arxiv.org/abs/1504.07437"
+    },
+    {
+      "title": "Voltaic pile",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Voltaic_pile"
+    },
+    {
+      "title": "Hans Christian Ørsted",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hans_Christian_%C3%98rsted"
+    },
+    {
+      "title": "1821: Electric conductivity",
+      "publisher": "The Book of Science",
+      "url": "https://sharpgiving.com/Sharp/thebookofscience/items/p1821a.html"
+    },
+    {
+      "title": "Thermoelectric effect",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thermoelectric_effect"
+    },
+    {
+      "title": "Joule's 1840 manuscript on the production of heat by voltaic electricity",
+      "publisher": "Notes and Records of the Royal Society",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rsnr.2020.0027"
+    },
+    {
+      "title": "Wheatstone bridge",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wheatstone_bridge"
+    },
+    {
+      "title": "Kirchhoff's circuit laws",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws"
+    },
+    {
+      "title": "Ohm (unit)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ohm"
+    },
+    {
+      "title": "Drude model",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Drude_model"
+    },
+    {
+      "title": "Superconductivity",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Superconductivity"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1913",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/1913/summary/"
+    },
+    {
+      "title": "High-temperature superconductivity",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/High-temperature_superconductivity"
+    },
+    {
+      "title": "Quantum Hall effect",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Quantum_Hall_effect"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1985",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/1985/summary/"
+    },
+    {
+      "title": "Copley Medal",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Copley_Medal"
+    },
+    {
+      "title": "2019 revision of the SI",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2019_revision_of_the_SI"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1987",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/1987/summary/"
+    },
+    {
+      "title": "Worker Deaths by Electrocution (DHHS/NIOSH pub. 98-131)",
+      "publisher": "NIOSH, CDC",
+      "url": "https://www.cdc.gov/niosh/docs/98-131/"
+    }
+  ]
+}

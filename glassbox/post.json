@@ -1,0 +1,126 @@
+{
+  "slug": "ohmslawclear",
+  "box": 1,
+  "question": "What is Ohm's law?",
+  "url": "https://glassbox-production-fd52.up.railway.app/e/ohmslawclear/",
+  "app": "https://glassbox-production-fd52.up.railway.app/ohmslawclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "From a scientist timing his own electric shocks to an ohm fixed by the constants of nature.\n\n1800: A steady current at last\n1820: A compass needle feels the current\n1826: The decisive experiment\n1827: Die galvanische Kette\n1841: Recognition from London\n1861: A unit named Ohma\n\nThe full story, with 19 moments, sources and charts: glassbox-production-fd52.up.railway.app/e/ohmslawclear/history (link in bio)\n\nThen play with how it works: glassbox-production-fd52.up.railway.app/ohmslawclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #ohmslaw #electricity #current #voltage #resistance #circuits #history",
+      "youtube": {
+        "title": "The history of Ohm's law in 45 seconds #shorts",
+        "description": "From a scientist timing his own electric shocks to an ohm fixed by the constants of nature.\n\n1800 · A steady current at last (Alessandro Volta)\n1820 · A compass needle feels the current (Hans Christian Ørsted)\n1826 · The decisive experiment (Georg Simon Ohm)\n1827 · Die galvanische Kette (Georg Simon Ohm)\n1841 · Recognition from London (Royal Society)\n1861 · A unit named Ohma (Latimer Clark and Charles Bright; British Association)\n\n▶ Full history: https://glassbox-production-fd52.up.railway.app/e/ohmslawclear/history/\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/ohmslawclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "What is Ohm's law?\n\nTwice the push, twice the flow: one line of algebra runs every heater, charger and fuse in your home. Drive electrons round a 3D circuit, see why they crawl while the light comes on instantly, and find where Ohm's law finally breaks.\n\n→ Ohm’s law: current equals voltage divided by resistance. Double the push, double the flow.\n→ Squeeze the flow with more resistance and the current falls. The line on the chart gets flatter.\n→ A heater is just a resistance: a 1,500 W air fryer element is about 35 ohms.\n→ A car starter pulls about 150 amps. On a thin cable, the wire itself becomes a heater.\n→ Switch on too much and the current climbs past 16 amps. The MCB’s strip bends and trips.\n\nPlay with it yourself. It's free and open source: glassbox-production-fd52.up.railway.app/ohmslawclear (link in bio)\n\nBox No. L01 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #ohmslaw #electricity #current #voltage #resistance #circuits #superconductivity #physics #threejs",
+    "carousel": "Swipe through: What is Ohm's law?\n\nTwice the push, twice the flow: one line of algebra runs every heater, charger and fuse in your home. Drive electrons round a 3D circuit, see why they crawl while the light comes on instantly, and find where Ohm's law finally breaks.\n\nSave this for later, then play with the interactive version at glassbox-production-fd52.up.railway.app/ohmslawclear (link in bio).\n\nBox No. L01 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #ohmslaw #electricity #current #voltage #resistance #circuits",
+    "youtube": {
+      "title": "What is Ohm's law? #shorts",
+      "description": "Twice the push, twice the flow: one line of algebra runs every heater, charger and fuse in your home. Drive electrons round a 3D circuit, see why they crawl while the light comes on instantly, and find where Ohm's law finally breaks.\n\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/ohmslawclear/\n⌘ Source code (MIT): https://github.com/bdeeps/ohmslawclear\n\nBox No. L01 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "What is Ohm's law? (interactive explainer)",
+      "description": "Twice the push, twice the flow: one line of algebra runs every heater, charger and fuse in your home. Drive electrons round a 3D circuit, see why they crawl while the light comes on instantly, and find where Ohm's law finally breaks.\n\n▶ Play with the interactive version: https://glassbox-production-fd52.up.railway.app/e/ohmslawclear/\n⌘ Source code (MIT): https://github.com/bdeeps/ohmslawclear\n\nIn this video:\n• Voltage pushes, resistance holds back. Current is how much charge flows each second.\n• Resistance turns electricity into heat. The heat made each second is P = I² × R, or V² ÷ R.\n• Low voltage needs fat cables. For the same power, a 12 V battery must push twenty times the current of a 230 V socket.\n• MCBs guard wires, RCCBs guard you. Too many heaters on one circuit push the current past 16 A and an MCB trips to save the wire.\n• Where the straight line bends. A bulb filament's resistance rises about 14 times as it heats, so it surges at switch-on.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "What is Ohm's law?\n\nTwice the push, twice the flow: one line of algebra runs every heater, charger and fuse in your home.\n\nPlay with it: https://glassbox-production-fd52.up.railway.app/e/ohmslawclear/",
+    "linkedin": "What is Ohm's law?\n\nTwice the push, twice the flow: one line of algebra runs every heater, charger and fuse in your home. Drive electrons round a 3D circuit, see why they crawl while the light comes on instantly, and find where Ohm's law finally breaks.\n\n1. Voltage pushes, resistance holds back\n2. Resistance turns electricity into heat\n3. Low voltage needs fat cables\n4. MCBs guard wires, RCCBs guard you\n5. Where the straight line bends\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. L01 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox-production-fd52.up.railway.app/e/ohmslawclear/\nCode: https://github.com/bdeeps/ohmslawclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-09-27T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-09-27T08:24:43.770Z"
+}
